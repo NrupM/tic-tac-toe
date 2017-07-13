@@ -15,7 +15,6 @@ $(document).ready(function() {
   // goes inside this function
   $('.box').click(function() {
 
-
     console.log('clicked');
 
     if (turn % 2 && $( this ).text() === '') {
@@ -37,4 +36,4 @@ $(document).ready(function() {
   });
 
 
-}); 
+});
