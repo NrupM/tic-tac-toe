@@ -89,6 +89,7 @@ $(document).ready(function() {
 
   $('button').click(function() {
     $('.box').text('');
+    turn = 1;
   });
 
 
